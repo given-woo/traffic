@@ -85,7 +85,9 @@ class Accidents extends React.Component {
         return (
             <>
                 {isLoding ? (
-                    <p>Loding...</p>
+                    <div className="accident-container loading">
+                        <div className="lds-ellipsis"><div></div><div></div><div></div><div></div></div>
+                    </div>
                 ) : (
                     <div className="accident-container">
                         <div className="accident-title">
