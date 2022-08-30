@@ -8,7 +8,7 @@ class Risk extends React.Component {
         }
     }
     componentDidMount () {
-        const url="https://bd2a5e1b-7490-4101-93f4-ef615166a924.mock.pstmn.io/list";
+        const url="https://833a0ac6-d96e-4af8-a5fd-1a12371e2822.mock.pstmn.io/list";
         fetch(url)
             .then((res) => res.json())
             .then((dt) => {
